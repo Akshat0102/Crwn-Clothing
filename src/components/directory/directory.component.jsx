@@ -69,6 +69,7 @@ const Directory = () => {
                         key={item.id}
                         title={item.title}
                         imageUrl={item.imageUrl}
+                        linkUrl={item.linkUrl}
                         size={item.size} />
                 ))
             }
