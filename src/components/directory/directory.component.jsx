@@ -1,7 +1,7 @@
 import React from "react";
 import './directory.styles.scss';
 import MenuItem from "../menu-item/menu-item.component";
-import { default as section } from '../util/directory.json'
+import { default as section } from '../util/directory.json';
 
 let directArr = section.sections
 
