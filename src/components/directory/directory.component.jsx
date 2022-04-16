@@ -65,7 +65,11 @@ const Directory = () => {
         <div className="directory-menu">
             {
                 directArr.map(item => (
-                    <MenuItem key={item.id} title={item.title} imageUrl={item.imageUrl} />
+                    <MenuItem
+                        key={item.id}
+                        title={item.title}
+                        imageUrl={item.imageUrl}
+                        size={item.size} />
                 ))
             }
         </div>
